@@ -1,0 +1,27 @@
+.app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.centered-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.my-spinner {
+    color: #BE585F;
+    width: 10rem;
+    height: 10rem;
+}

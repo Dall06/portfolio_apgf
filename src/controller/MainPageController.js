@@ -1,3 +1,4 @@
+
 setTimeout(function() {
-    window.location.href = '../view/ui/home_page/index.html';
-}, 3000);
+    window.location.href = './src/view/ui/home_page/index.html';
+}, 2000);

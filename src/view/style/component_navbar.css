@@ -25,6 +25,7 @@
     margin: 6rem 5px 5px 4rem;
     /*trbl*/
     height: 70px;
+    cursor: pointer;
 }
 
 #col-actions {
@@ -62,4 +63,8 @@
     color: #ffffff;
     font-family: 'Gotham Light 300', sans-serif;
     font-size: xx-large;
+}
+
+.my-active {
+    color: #000000;
 }

@@ -10,7 +10,7 @@
 #footerrow {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 1rem;
+    margin-top: 1vh;
 }
 
 .img-social-ic {
@@ -25,8 +25,13 @@
 }
 
 .img-logo-ic {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
+}
+
+
+.social-ic {
+    cursor: pointer;
 }
 
 .div-footer {

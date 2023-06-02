@@ -45,6 +45,7 @@
     padding-right: 8rem;
     position: relative;
     margin-bottom: 3rem;
+    flex: 1;
 }
 
 #content-container {
@@ -92,6 +93,14 @@
     color: #ffffff;
     font-size: 28px;
     font-weight: bold;
+}
+
+.rounded-button:hover {
+    background-color: #BE585F;
+}
+
+.rounded-button:active {
+    background-color: #000000;
 }
 
 .form-lbl {
@@ -155,4 +164,26 @@
 
 .my-area {
     height: 100px;
+}
+
+.contact-row-2 {
+    height: 13vh;
+}
+
+.div-img-arrow {
+    height: 100px;
+    width: 100px;
+    margin-right: 1rem;
+}
+
+.img-arrow {
+    height: 8vh;
+    width: auto;
+}
+
+.lbl-ask {
+    bottom: 0;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Gotham Medium';
 }

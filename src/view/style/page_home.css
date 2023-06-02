@@ -48,6 +48,7 @@
 #content {
     width: 100%;
     padding-top: 6.8rem;
+    flex: 1;
     /*8.5 - Val = y */
     padding-left: 8rem;
     padding-right: 8rem;
@@ -73,6 +74,10 @@
     text-indent: 3rem;
 }
 
+.col-namedes {
+    width: 100%;
+}
+
 .rounded-button {
     display: inline-block;
     border: none;
@@ -88,10 +93,6 @@
     text-align: center;
 }
 
-.col-namedes {
-    width: 100%;
-}
-
 .rounded-button span {
     display: block;
     color: #ffffff;
@@ -99,13 +100,20 @@
     font-weight: bold;
 }
 
+.rounded-button:hover {
+    background-color: #BE585F;
+}
+
+.rounded-button:active {
+    background-color: #000000;
+}
+
 .img-arrow-div {
     width: 100%;
-    margin-top: 35vh;
+    margin-top: 45vh;
 }
 
 .img-arrow {
-    height: 150px;
     width: 90%;
 }
 
@@ -129,7 +137,7 @@
 
 .name-text {
     font-family: 'Gotham', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     color: #BE585F;
 }
 
@@ -195,7 +203,7 @@
 .exp-img {
     width: 220px;
     /* Adjust as needed */
-    height: 23px;
+    height: 15px;
     margin-top: 0;
 }
 
@@ -221,6 +229,15 @@
     justify-content: center;
     text-align: center;
 }
+
+.rounded-button-red:hover {
+    background-color: #CFC7CC;
+}
+
+.rounded-button-red:active {
+    background-color: #000000;
+}
+
 
 .section-2 {
     margin-right: 3rem;

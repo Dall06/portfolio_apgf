@@ -1,0 +1,264 @@
+/*body*/
+#content {
+    width: 100%;
+    padding-top: 6.8rem;
+    /*8.5 - Val = y */
+    padding-left: 8rem;
+    padding-right: 8rem;
+    position: relative;
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+#content-container {
+    height: 100%;
+    /* position: relative; */
+}
+
+.principal-text {
+    color: #BE585F;
+    padding: 0;
+    line-height: 1.3;
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 10.7vh;
+    margin-top: 1.5rem;
+}
+
+.line {
+    width: 1rem;
+    position: relative;
+}
+
+.line-1 {
+    height: 23%;
+    background-color: #BE585F;
+    border-radius: 20px;
+}
+
+.line-2 {
+    margin-top: 39vh;
+    height: 48%;
+    background-color: #f9c5c9;
+    border-radius: 20px;
+}
+
+.line-3 {
+    margin-top: 70vh;
+    margin-left: 4rem;
+    height: 33%;
+    background-color: #dbd3d8aa;
+    border-radius: 20px;
+}
+
+.line-4 {
+    position: relative;
+    margin-left: 4rem;
+    margin-top: 90vh;
+    height: 27%;
+    background-color: #CFC7CC;
+    border-radius: 20px;
+}
+
+.col-lines-1 {
+    height: auto;
+}
+
+.img-arrow-div {
+    width: 100%;
+}
+
+.img-arrow {
+    width: 15%;
+
+}
+
+.img-pkg {
+    width: 80%;
+    right: 0;
+}
+
+.dot {
+    background-color: #BE585F;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.lbl-invite {
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 2.7vh;
+    margin-top: 1.5rem;
+}
+
+.lbl-distinguish {
+    color: #01010177;
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 2.3vh;
+    margin-top: 1.5rem;
+}
+
+.div-invite {
+    margin-left: 2rem;
+}
+
+.div-ask {
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.div-lbl-ask {
+    width: auto;
+    margin-right: 0px;
+}
+
+.lbl-ask {
+    color: #01010177;
+    font-family: 'Gotham Book', sans-serif;
+    font-size: 2.1vh;
+}
+
+
+.div-img-c1 {
+    height: auto;
+    width: 62vh;
+    border-radius: 35px;
+    position: relative;
+    display: inline-block;
+    top: 0;
+}
+
+.div-img-c2 {
+    height: 75%;
+    width: 42vh;
+    border-radius: 35px;
+    position: relative;
+    bottom: 0px;
+    margin-left: 3rem;
+    margin-top: 12rem;
+}
+
+.div-img-c3 {
+    height: auto;
+    width: 95%;
+    border-radius: 35px;
+    position: relative;
+}
+
+.div-img-c4 {
+    height: auto;
+    width: 88%;
+    border-radius: 35px;
+    position: relative;
+}
+
+.div-img-c5 {
+    height: auto;
+    width: 88%;
+    border-radius: 35px;
+    position: relative;
+    display: flex;
+}
+
+.img-c1 {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    border-radius: 35px;
+}
+
+.img-c2 {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.img-c3 {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 35px;
+}
+
+.img-c4 {
+    display: block;
+    max-width: 92%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 35px;
+}
+
+.img-finals {
+    width: 55%;
+}
+
+.next-button-1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    right: -1.5rem;
+    background-color: #BE585F;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 50px;
+}
+
+.next-button-2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    right: -1.5rem;
+    background-color: #BE585F;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 50px;
+}
+
+.row-separation {
+    margin-top: 10vh;
+}
+
+.row-separation-2 {
+    margin-top: 6vh;
+}
+
+.row-separation-3 {
+    margin-top: 8vh;
+}
+
+.lbl-idi {
+    font-family: 'Gotham Light', sans-serif;
+    color: #BE585F;
+    font-size: 2.8vh;
+}
+
+.lbl-mcont {
+    font-family: 'Sheila', sans-serif;
+    font-size: 5vh;
+}
+
+.img-arrow-mc {
+    width: 130px;
+}

@@ -5,10 +5,8 @@
 
 .line1 {
     width: 1rem;
-    height: 45%;
-    bottom: 10vh;
-    right: 4rem;
-    background-color: #e2dde0;
+    height: 1rem;
+    background-color: #bf3186;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }

@@ -23,27 +23,6 @@
     background-color: #CFC7CC;
 }
 
-/*media*/
-@media (max-width: 768px) {
-
-    /* Styles for medium */
-    .a-link {
-        color: #ffffff;
-        font-family: 'Gotham Light 300', sans-serif;
-        font-size: smaller;
-    }
-}
-
-@media (max-width: 576px) {
-
-    /* Styles for mobile */
-    .a-link {
-        color: #ffffff;
-        font-family: 'Gotham Light 300', sans-serif;
-        font-size: 10px;
-    }
-}
-
 /*body*/
 #content {
     width: 100%;
@@ -64,9 +43,8 @@
     color: #BE585F;
     padding: 0;
     line-height: 1.5;
-    font-family: 'Gotham Bold';
+    font-family: 'Gotham Bold', sans-serif;
     font-size: 10.5vh;
-    margin-top: 1.5rem;
 }
 
 .line-2 {
@@ -78,26 +56,25 @@
     width: 100%;
 }
 
+.div-rounded-button {
+    width: 30vh;
+    height: 5vh;
+    margin-left: 3rem;
+}
+
 .rounded-button {
-    display: inline-block;
     border: none;
     background-color: #CFC7CC;
     border-radius: 30px;
-    width: 30%;
+    width: 30vh;
     height: 5vh;
-    margin-left: 3rem;
-    margin-top: 1rem;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
-.rounded-button span {
-    display: block;
+.rounded-button label {
     color: #ffffff;
     font-size: 25px;
-    font-weight: bold;
+
+    font-family: 'Gotham Medium', sans-serif;
 }
 
 .rounded-button:hover {
@@ -207,11 +184,12 @@
     margin-top: 0;
 }
 
-.rounded-button-red span {
+.rounded-button-red label {
     display: block;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Gotham Medium', sans-serif;
 }
 
 .rounded-button-red {
@@ -222,11 +200,6 @@
     width: 36%;
     height: 4vh;
     margin-left: 3rem;
-    margin-top: 1rem;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .rounded-button-red:hover {

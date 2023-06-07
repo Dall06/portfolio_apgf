@@ -96,7 +96,7 @@
 .rounded-button span {
     display: block;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -218,7 +218,6 @@
     display: inline-block;
     border: none;
     background-color: #BE585F;
-    ;
     border-radius: 30px;
     width: 36%;
     height: 4vh;

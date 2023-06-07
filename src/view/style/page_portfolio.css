@@ -46,16 +46,16 @@
     margin-top: 70vh;
     margin-left: 4rem;
     height: 33%;
-    background-color: #dbd3d8aa;
+    background-color: #BE585F;
     border-radius: 20px;
 }
 
 .line-4 {
     position: relative;
     margin-left: 4rem;
-    margin-top: 90vh;
-    height: 27%;
-    background-color: #CFC7CC;
+    margin-top: 70vh;
+    height: 18%;
+    background-color: #f9c5c9;
     border-radius: 20px;
 }
 
@@ -69,7 +69,6 @@
 
 .img-arrow {
     width: 15%;
-
 }
 
 .img-pkg {
@@ -108,13 +107,13 @@
 
 .div-lbl-ask {
     width: auto;
-    margin-right: 0px;
 }
 
 .lbl-ask {
     color: #01010177;
     font-family: 'Gotham Book', sans-serif;
     font-size: 2.1vh;
+    margin-top: 0.8rem;
 }
 
 
@@ -261,4 +260,48 @@
 
 .img-arrow-mc {
     width: 130px;
+}
+
+.label-tag {
+    font-family: 'Gotham Medium', sans-serif;
+    padding-top: 1rem;
+    font-size: 2.3vh;
+}
+
+.div-label-tag {
+    text-align: center;
+}
+
+.line-tag {
+    width: 7rem;
+    height: 1.2rem;
+    position: relative;
+}
+
+.rounded-button span {
+    display: block;
+    color: #BE585F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rounded-button {
+    display: inline-block;
+    border: none;
+    background-color: #EBE6D3;
+    border-radius: 30px;
+    height: 7vh;
+    width: 22vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rounded-button:hover {
+    background-color: #CFC7CC;
+}
+
+.rounded-button:active {
+    background-color: #000000;
 }

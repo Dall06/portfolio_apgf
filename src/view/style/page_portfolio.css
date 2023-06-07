@@ -116,7 +116,6 @@
     margin-top: 0.8rem;
 }
 
-
 .div-img-c1 {
     height: auto;
     width: 62vh;
@@ -273,7 +272,7 @@
 }
 
 .line-tag {
-    width: 7rem;
+    width: auto;
     height: 1.2rem;
     position: relative;
 }

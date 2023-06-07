@@ -66,6 +66,7 @@
     color: #ffffff;
     font-family: 'Gotham Light 300', sans-serif;
     font-size: xx-large;
+    width: auto;
 }
 
 .my-active {

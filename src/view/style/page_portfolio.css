@@ -27,6 +27,7 @@
 .line {
     width: 1rem;
     position: relative;
+    z-index: -1;
 }
 
 .line-1 {
@@ -43,24 +44,35 @@
 }
 
 .line-3 {
-    margin-top: 70vh;
-    margin-left: 4rem;
-    height: 33%;
-    background-color: #BE585F;
+    margin-top: 120vh;
+    height: 130vh;
+    background-color: #ebe2e8;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .line-4 {
-    position: relative;
-    margin-left: 4rem;
-    margin-top: 70vh;
-    height: 18%;
-    background-color: #f9c5c9;
+    margin-top: 100vh;
+    height: 100vh;
+    background-color: #CFC7CC;
     border-radius: 20px;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .col-lines-1 {
     height: auto;
+}
+
+.col-lines-2 {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    right: 0;
+    height: 100%;
+    margin-right: 8rem;
+    background-color: #66be58;
 }
 
 .img-arrow-div {

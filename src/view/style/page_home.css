@@ -45,6 +45,7 @@
     line-height: 1.5;
     font-family: 'Gotham Bold', sans-serif;
     font-size: 10.5vh;
+    width: auto;
 }
 
 .line-2 {
@@ -73,7 +74,7 @@
 .rounded-button label {
     color: #ffffff;
     font-size: 25px;
-
+    width: auto;
     font-family: 'Gotham Medium', sans-serif;
 }
 
@@ -127,6 +128,7 @@
     font-size: 3rem;
     color: #BE585F;
     font-family: 'Gotham Bold', sans-serif;
+    width: auto;
 }
 
 .col-wdo {
@@ -157,6 +159,7 @@
     width: calc(100% - 90px);
     /* Adjust the width based on image width and margin */
     word-wrap: break-word;
+    width: auto;
 }
 
 .exp-container {
@@ -190,6 +193,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Gotham Medium', sans-serif;
+    width: auto;
 }
 
 .rounded-button-red {

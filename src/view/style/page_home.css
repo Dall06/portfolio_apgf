@@ -70,8 +70,7 @@
     border-radius: 30px;
     width: 30vh;
     height: 5vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
 }
 
 .rounded-button label {
@@ -205,8 +204,7 @@
     width: 20vh;
     height: 4vh;
     margin-left: 3rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
 }
 
 .rounded-button-red:hover {

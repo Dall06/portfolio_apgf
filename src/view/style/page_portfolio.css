@@ -44,12 +44,13 @@
 }
 
 .line-3 {
-    margin-top: 120vh;
-    height: 130vh;
-    background-color: #ebe2e8;
+    margin-top: 128vh;
+    background-color: #cfc7cc84;
     border-radius: 20px;
+    overflow: hidden;
     z-index: -1;
     width: 1rem;
+    height: 70em;
 }
 
 .line-4 {

@@ -1,33 +1,35 @@
 /*footer*/
 #footer {
     width: 100%;
-    min-height: 10vh;
+    max-width: 100%;
+    height: 10vh;
     bottom: 0;
-    background-color: #BE585F;
-    align-items: center;
 }
 
-#footerrow {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 1vh;
+.footer-row {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-color: #BE585F;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .img-social-ic {
-    height: 70px;
+    height: 60px;
+    width: 60px;
 }
 
 .footer-text {
     color: #ffffff;
     font-family: 'Gotham Light', sans-serif;
-    font-size: 12px;
-    margin-left: 1rem;
-    width: auto;
+    font-size: 14px;
+    padding-top: 10px;
 }
 
 .img-logo-ic {
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: auto;
 }
 
 

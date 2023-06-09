@@ -1,26 +1,23 @@
 /*navbar*/
 #navbar {
     width: 100%;
+    max-width: 100%;
+    min-height: 27vh;
     height: 27vh;
+    top: 0;
+    background-color: aqua;
 }
 
-#navrow {
-    height: 100%;
+.nav-row {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
     background-color: #ffffff;
-    display: flex;
-    align-items: center;
-}
-
-#col-logo {
-    height: 27vh;
 }
 
 .div-logo {
     height: 100%;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 }
 
 .img-logo {
@@ -29,14 +26,6 @@
     cursor: pointer;
     align-self: center;
     justify-content: center;
-}
-
-#col-actions {
-    height: 27vh;
-    margin: 0%;
-    padding: 0%;
-    justify-items: end;
-    justify-content: end;
 }
 
 .div-actions {
@@ -49,25 +38,14 @@
     background-color: #BE585F;
     border-bottom-left-radius: 90px;
     border-top-left-radius: 90px;
-    margin-top: 1.5vh;
     height: 50%;
     width: 75.3%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.row-actions {
-    margin-left: 3rem;
-    align-items: start;
-    margin-top: 0.4rem;
 }
 
 .a-link {
     color: #ffffff;
     font-family: 'Gotham Medium', sans-serif;
-    font-size: xx-large;
+    font-size: 4vh;
 }
 
 .my-active {

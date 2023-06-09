@@ -70,13 +70,15 @@
     border-radius: 30px;
     width: 30vh;
     height: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .rounded-button label {
     color: #ffffff;
-    font-size: 25px;
-    width: auto;
     font-family: 'Gotham Medium', sans-serif;
+    font-size: x-large;
+    display: inline-block;
 }
 
 .rounded-button:hover {
@@ -178,7 +180,8 @@
     margin-bottom: 0;
     text-overflow: ellipsis;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Gotham Light', sans-serif;
 }
 
 .exp-img {
@@ -189,22 +192,21 @@
 }
 
 .rounded-button-red label {
-    display: block;
     color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
     font-family: 'Gotham Medium', sans-serif;
-    width: auto;
+    font-size: large;
+    display: inline-block;
 }
 
 .rounded-button-red {
-    display: inline-block;
     border: none;
     background-color: #BE585F;
     border-radius: 30px;
     width: 20vh;
     height: 4vh;
     margin-left: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .rounded-button-red:hover {

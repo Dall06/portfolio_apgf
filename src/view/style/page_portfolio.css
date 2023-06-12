@@ -81,6 +81,7 @@
 
 .img-arrow-div {
     width: 100%;
+    margin-top: 1rem;
 }
 
 .img-arrow {
@@ -108,7 +109,7 @@
 .lbl-distinguish {
     color: #01010177;
     font-family: 'Gotham Book', sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.8vh;
     margin-top: 1.5rem;
 }
 
@@ -202,7 +203,7 @@
     display: block;
     max-width: 92%;
     max-height: 100%;
-    object-fit: contain;
+    object-fit: fill;
     border-radius: 35px;
 }
 
@@ -283,24 +284,69 @@
     font-size: 3.3vh;
 }
 
-.div-label-tag {
-    text-align: center;
+.rule {
+    height: 5px;
+    background: #CFC7CC;
+    width: 9.5rem;
+    position: relative;
+    margin-left: 1rem;
+    border-radius: 30px;
 }
 
-.line-tag {
-    width: 6rem;
-    height: 15px;
+.rule:after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    float: left;
+    background: #CFC7CC;
+    margin-top: -3px;
+}
+
+.rule-premium {
+    height: 5px;
+    background: #CFC7CC;
+    width: 7.5rem;
     position: relative;
+    margin-left: 1rem;
+    border-radius: 30px;
+}
+
+.rule-premium:after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    float: left;
+    background: #CFC7CC;
+    margin-top: -3px;
+}
+
+.rule-premium:after {
+    float: right;
+}
+
+.rule:after {
+    float: right;
+}
+
+.line-tag-premium {
+    width: 8rem;
+    height: auto;
+    position: relative;
+    margin-left: 1rem;
 }
 
 /*media*/
 @media (max-width: 1280px) {
 
     /* Styles for medium */
-    .line-tag {
-        width: 5rem;
-        height: 12px;
-        position: relative;
+    .rule {
+        width: 7.5rem;
+    }
+
+    .rule-premium {
+        width: 5.5rem;
     }
 
     .lbl-ask {
@@ -315,16 +361,18 @@
 @media (max-width: 1100px) {
 
     /* Styles for medium */
-    .line-tag {
-        width: 4rem;
-        height: 12px;
-        position: relative;
+    .rule {
+        width: 7rem;
+    }
+
+    .rule-premium {
+        width: 5rem;
     }
 }
 
 .rounded-button {
     border: none;
-    background-color: #EBE6D3;
+    background-color: #f8f6ed;
     border-radius: 30px;
     height: 7vh;
     width: 22vh;

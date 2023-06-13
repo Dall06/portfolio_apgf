@@ -338,6 +338,26 @@
 }
 
 /*media*/
+@media (min-width: 1280px) {
+
+    /* Styles for medium */
+    .rule {
+        width: 7.5rem;
+    }
+
+    .rule-premium {
+        width: 5.5rem;
+    }
+
+    .lbl-ask {
+        color: #01010177;
+        font-family: 'Gotham Book', sans-serif;
+        font-size: 2.2vh;
+        margin-top: 0.8rem;
+    }
+}
+
+/*media*/
 @media (max-width: 1280px) {
 
     /* Styles for medium */

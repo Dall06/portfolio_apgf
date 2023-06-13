@@ -376,14 +376,14 @@
 }
 
 /*media*/
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
 
     .rule {
         width: 8.5rem;
     }
 
     .rule-premium {
-        width: 5rem;
+        width: 6.5rem;
     }
 
     .lbl-ask {
